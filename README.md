@@ -1,9 +1,9 @@
 
-# WPReactSDK
+# WhapplepayReactSDK
 
 ## Overview
 
-WPReactSDK is a library that allows you to seamlessly integrate WhapplePay's secure payment gateway into your React Native applications. By using this SDK, you can enhance user experience, process payments securely, and optimize checkout flows with WhapplePay's reliable tools tailored specifically for React Native environments.
+WhapplepayReactSDK is a library that allows you to seamlessly integrate WhapplePay's secure payment gateway into your React Native applications. By using this SDK, you can enhance user experience, process payments securely, and optimize checkout flows with WhapplePay's reliable tools tailored specifically for React Native environments.
 
 ## Features
 
@@ -17,27 +17,27 @@ WPReactSDK is a library that allows you to seamlessly integrate WhapplePay's sec
 To install WPReactSDK, use npm or yarn:
 
 ```bash
-npm install wpreactsdk
+npm install whapplepayreactsdk
 ```
 
 or
 
 ```bash
-yarn add wpreactsdk
+yarn add whapplepayreactsdk
 ```
 
 ## Usage
 
-1. Import WPReactSDK into your React Native project:
+1. Import WhapplepayReactSDK into your React Native project:
 
 ```javascript
-import WhapplePay from 'wpreactsdk';
+import WhapplePaySDK from 'whapplepayreactsdk';
 ```
 
 2. Initialize WhapplePay with your API keys:
 
 ```javascript
-const whapplePay = new WhapplePay({
+const whapplePay = new WhapplePaySDK({
   apiKey: 'YOUR_API_KEY_HERE',
   secretKey: 'YOUR_SECRET_KEY_HERE',
 });
@@ -61,11 +61,11 @@ For detailed API documentation and examples, refer to the [API Reference](https:
 
 ## API Reference
 
-For detailed information about WPReactSDK's API methods and usage examples, please refer to the [API Reference](https://github.com/WhapplePay/react-native-whapplepay-sdk/blob/main/API_REFERENCE.md).
+For detailed information about WhapplepayReactSDK's API methods and usage examples, please refer to the [API Reference](https://github.com/WhapplePay/react-native-whapplepay-sdk/blob/main/API_REFERENCE.md).
 
 ## Contributing
 
-Contributions to WPReactSDK are welcome! To contribute, please follow these steps:
+Contributions to WhapplepayReactSDK are welcome! To contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-branch-name`).
@@ -80,7 +80,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ## Support
 
-For any questions or issues regarding WPReactSDK, please [open an issue](https://github.com/WhapplePay/react-native-whapplepay-sdk/issues) on GitHub or contact our support team at support@whapplepay.com.
+For any questions or issues regarding WhapplepayReactSDK, please [open an issue](https://github.com/WhapplePay/react-native-whapplepay-sdk/issues) on GitHub or contact our support team at support@whapplepay.com.
 
 ---
 
