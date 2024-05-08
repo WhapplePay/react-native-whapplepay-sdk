@@ -82,6 +82,3 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 For any questions or issues regarding WhapplepayReactSDK, please [open an issue](https://github.com/WhapplePay/react-native-whapplepay-sdk/issues) on GitHub or contact our support team at support@whapplepay.com.
 
----
-
-After creating this README file, save it as `README.md` in the root directory of your package. Make sure to replace placeholders like `YOUR_API_KEY_HERE` and `YOUR_SECRET_KEY_HERE` with actual values or instructions for developers to fill in their API keys. Then, include this `README.md` file in your package when publishing it to npm or yarn.
