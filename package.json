@@ -2,6 +2,16 @@
   "name": "whapplepayreactsdk",
   "version": "1.0.1",
   "main": "./src/whapplestart.js",
+  "author": "Wg Organisation  <sdk@whapplepay.com>",
+  "types": "src/types.d.ts",
+  "keywords": [
+    "WhapplePay",
+    "Orange Money",
+    "Mobile Money",
+    "Airtel Money",
+    "React",
+    "React Native"
+  ],
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
