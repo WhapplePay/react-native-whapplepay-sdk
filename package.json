@@ -1,6 +1,6 @@
 {
   "name": "whapplepayreactsdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./src/whapplestart.js",
   "scripts": {
     "start": "expo start",
