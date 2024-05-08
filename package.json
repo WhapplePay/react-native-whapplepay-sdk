@@ -1,14 +1,17 @@
 {
-  "name": "wpreactsdk",
+  "name": "whapplepayreactsdk",
   "version": "1.0.0",
   "main": "./src/whapplestart.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build": "babel src -d dist"
   },
   "dependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
     "axios": "^1.6.8",
     "expo": "~51.0.0",
     "expo-status-bar": "~1.12.1",
