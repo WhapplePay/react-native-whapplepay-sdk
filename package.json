@@ -1,7 +1,7 @@
 {
   "name": "whapplepayreactsdk",
   "version": "1.0.2",
-  "main": "./src/whapplestart.js",
+  "main": "./src/index.js",
   "types": "src/types.d.ts",
   "keywords": [
     "WhapplePay",

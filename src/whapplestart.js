@@ -43,7 +43,6 @@ class WhapplePaySDK {
     }
   }
   
-  
   async withdrawMoney(amount, currency, withdrawMethod, clientId, clientSecret) {
     try {
       const data = {
@@ -55,6 +54,38 @@ class WhapplePaySDK {
       };
 
       const response = await this.makeApiCall('POST', 'withdrawals', data);
+      return response.data; 
+    } catch (error) {
+      return { error: error.message };
+    }
+  }
+
+  async depositMoney(amount, currency, depositMethod, clientId, clientSecret) {
+    try {
+      const data = {
+        amount,
+        currency,
+        depositMethod,
+        clientId,
+        clientSecret,
+      };
+
+      const response = await this.makeApiCall('POST', 'deposits', data);
+      return response.data; 
+    } catch (error) {
+      return { error: error.message };
+    }
+  }
+
+  async checkPaymentStatus(transactionId, clientId, clientSecret) {
+    try {
+      const data = {
+        transactionId,
+        clientId,
+        clientSecret,
+      };
+
+      const response = await this.makeApiCall('POST', 'payments/status', data);
       return response.data; 
     } catch (error) {
       return { error: error.message };

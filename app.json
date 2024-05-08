@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "WPReactSDK",
-    "slug": "WPReactSDK",
+    "name": "WhapplePayreactSDK",
+    "slug": "WhapplePayreactSDK",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
