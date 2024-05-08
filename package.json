@@ -2,7 +2,6 @@
   "name": "whapplepayreactsdk",
   "version": "1.0.1",
   "main": "./src/whapplestart.js",
-  "author": "Wg Organisation  <sdk@whapplepay.com>",
   "types": "src/types.d.ts",
   "keywords": [
     "WhapplePay",
@@ -34,6 +33,6 @@
   "private": false,
   "description": "Integrate WhapplePay's secure payment gateway seamlessly into your React Native applications. Enhance user experience, process payments securely, and optimize checkout flows with WhapplePay's reliable SDK tailored for React Native environments.",
   "repository": "https://github.com/WhapplePay/react-native-whapplepay-sdk.git",
-  "author": "Wg Organisation",
+  "author": "Wg Organisation <sdk@whapplepay.com>",
   "license": "MIT"
 }
